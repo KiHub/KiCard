@@ -11,6 +11,9 @@
 		0B3434D02779EED400AD6A78 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B3434CF2779EED400AD6A78 /* ContentView.swift */; };
 		0B3434D22779EED700AD6A78 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0B3434D12779EED700AD6A78 /* Assets.xcassets */; };
 		0B3434D52779EED700AD6A78 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0B3434D42779EED700AD6A78 /* Preview Assets.xcassets */; };
+		0B3434DF277A68E800AD6A78 /* Pacifico-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0B3434DE277A68E800AD6A78 /* Pacifico-Regular.ttf */; };
+		0B3434E2277A6DC200AD6A78 /* BebasNeue-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0B3434E1277A6DC200AD6A78 /* BebasNeue-Regular.ttf */; };
+		0B3434E5277B36F100AD6A78 /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B3434E4277B36F100AD6A78 /* InfoView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +23,9 @@
 		0B3434D12779EED700AD6A78 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0B3434D42779EED700AD6A78 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		0B3434D62779EED700AD6A78 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0B3434DE277A68E800AD6A78 /* Pacifico-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pacifico-Regular.ttf"; sourceTree = "<group>"; };
+		0B3434E1277A6DC200AD6A78 /* BebasNeue-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "BebasNeue-Regular.ttf"; sourceTree = "<group>"; };
+		0B3434E4277B36F100AD6A78 /* InfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,8 +58,10 @@
 		0B3434CC2779EED400AD6A78 /* KiCard */ = {
 			isa = PBXGroup;
 			children = (
+				0B3434DD277A68BF00AD6A78 /* fonts */,
 				0B3434CD2779EED400AD6A78 /* KiCardApp.swift */,
 				0B3434CF2779EED400AD6A78 /* ContentView.swift */,
+				0B3434E4277B36F100AD6A78 /* InfoView.swift */,
 				0B3434D12779EED700AD6A78 /* Assets.xcassets */,
 				0B3434D62779EED700AD6A78 /* Info.plist */,
 				0B3434D32779EED700AD6A78 /* Preview Content */,
@@ -67,6 +75,15 @@
 				0B3434D42779EED700AD6A78 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		0B3434DD277A68BF00AD6A78 /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				0B3434E1277A6DC200AD6A78 /* BebasNeue-Regular.ttf */,
+				0B3434DE277A68E800AD6A78 /* Pacifico-Regular.ttf */,
+			);
+			path = fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,7 +143,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0B3434DF277A68E800AD6A78 /* Pacifico-Regular.ttf in Resources */,
 				0B3434D52779EED700AD6A78 /* Preview Assets.xcassets in Resources */,
+				0B3434E2277A6DC200AD6A78 /* BebasNeue-Regular.ttf in Resources */,
 				0B3434D22779EED700AD6A78 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -139,6 +158,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0B3434D02779EED400AD6A78 /* ContentView.swift in Sources */,
+				0B3434E5277B36F100AD6A78 /* InfoView.swift in Sources */,
 				0B3434CE2779EED400AD6A78 /* KiCardApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
